@@ -1,8 +1,10 @@
 # Introduction
+
 Cogz is a branch of the Governing-IOT-Monitor project and is focused on creating a highly automated and secure system for smart device management.
 Cogz integrates advanced technologies such as blockchain, machine learning, and AI to provide users with a comprehensive solution for managing multiple smart devices.
 
 Key Features
+
 Supports multiple protocols such as MQTT, SNMP and others for seamless integration with multiple devices.
 Incorporates blockchain technology for security and sharding for enhanced stability and security.
 Easy deployment through Docker and InfluxDB.
@@ -13,6 +15,7 @@ Scalable, fast and flexible design inspired by SaltStack.
 Deep learning algorithms used for intrusion detection and prevention.
 
 Requirements
+
 To run Cogz, you will need the following:
 
 Python 3.6 or later
@@ -24,6 +27,7 @@ Voice actor library
 Lip movement and emotion library
 
 Installing Cogz
+
 1. Clone the Cogz repository from GitHub to your local machine.
 2. Install all the required libraries and packages as listed above.
 3. Set up Docker and InfluxDB for deployment.
@@ -32,12 +36,15 @@ Installing Cogz
 6. Run the Cogz program on your device.
 
 Contributing to Cogz
+
 Cogz is an open-source project and we welcome contributions from the community. If you would like to contribute, please follow these steps:
 
-Fork the Cogz repository on GitHub.
-Clone the repository to your local machine.
-Make the changes you would like to contribute.
-Commit the changes and push them to your forked repository.
-Create a pull request to the original Cogz repository.
+1. Fork the Cogz repository on GitHub.
+2. Clone the repository to your local machine.
+3. Make the changes you would like to contribute.
+4. Commit the changes and push them to your forked repository.
+5. Create a pull request to the original Cogz repository.
+
 License
+
 Cogz is licensed under the MIT License. Please refer to the LICENSE file for more information.
