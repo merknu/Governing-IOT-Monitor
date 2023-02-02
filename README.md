@@ -24,12 +24,12 @@ Voice actor library
 Lip movement and emotion library
 
 Installing Cogz
-Clone the Cogz repository from GitHub to your local machine.
-Install all the required libraries and packages as listed above.
-Set up Docker and InfluxDB for deployment.
-Choose a voice actor and avatar for your chatbot.
-Train the AI to fix errors and improve the system.
-Run the Cogz program on your device.
+1. Clone the Cogz repository from GitHub to your local machine.
+2. Install all the required libraries and packages as listed above.
+3. Set up Docker and InfluxDB for deployment.
+4. Choose a voice actor and avatar for your chatbot.
+5. Train the AI to fix errors and improve the system.
+6. Run the Cogz program on your device.
 
 Contributing to Cogz
 Cogz is an open-source project and we welcome contributions from the community. If you would like to contribute, please follow these steps:
