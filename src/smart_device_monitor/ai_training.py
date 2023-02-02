@@ -1,22 +1,16 @@
 # ai_training.py
-import tensorflow as tf
 import numpy as np
+import pandas as pd
+from sklearn.neural_network import MLPClassifier
 
-# Load and preprocess the data
-x_train, y_train = load_data('./data/training_data.csv')
-x_test, y_test = load_data('./data/test_data.csv')
+def train_ai(X, y):
+    # Train the AI on the given data using a multi-layer perceptron classifier
+    mlp = MLPClassifier(hidden_layer_sizes=(100,100,100), max_iter=500, alpha=0.0001,
+                        solver='sgd', verbose=10, tol=1e-4, random_state=1,
+                        learning_rate_init=.1)
+    mlp.fit(X, y)
+    return mlp
 
-# Build the model
-model = tf.keras.Sequential([
-    tf.keras.layers.Dense(64, activation='relu'),
-    tf.keras.layers.Dense(32, activation='relu'),
-    tf.keras.layers.Dense(16, activation='relu'),
-    tf.keras.layers.Dense(1, activation='sigmoid')
-])
-
-# Compile the model
-model.compile(optimizer='adam',
-              loss='binary_crossentropy',
-              metrics=['accuracy'])
-
-# Train the model
+def predict_with_ai(ai_model, X):
+    # Use the trained AI model to make predictions on new data
+    return ai_model.predict(X)
