@@ -47,4 +47,5 @@ Cogz is an open-source project and we welcome contributions from the community. 
 
 License
 
-Cogz is licensed under the MIT License. Please refer to the LICENSE file for more information.
+Cogz is licensed under the Apache License 2.0.
+Please refer to the LICENSE file for more information.
