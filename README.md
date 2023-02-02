@@ -1,3 +1,5 @@
+This Project is currently under development and it is not ready for pubic testing yet
+
 # Introduction
 
 Cogz is a branch of the Governing-IOT-Monitor project and is focused on creating a highly automated and secure system for smart device management.
