@@ -1,5 +1,24 @@
 import os
 from setuptools import setup, find_packages
+from error_handling import ConnectionError, DataError
+from ai_training import train_ai, predict_with_ai
+
+try:
+    # Connect to a device
+    # ...
+except ConnectionError as e:
+    print(e.message)
+
+try:
+    # Use the AI to predict something
+    # ...
+except DataError as e:
+    print(e.message)
+
+# Train the AI
+# ...
+ai_model = train_
+
 
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
