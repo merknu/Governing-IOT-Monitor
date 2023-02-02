@@ -9,15 +9,14 @@ if name == "main":
     ("data/model_files/lip_sync", "https://example.com/lip_sync_models"),
     ("data/model_files/voice_recognition", "https://github.com/mozilla/DeepSpeech/releases/download/v0.9.4/deepspeech-0.9.4-models.pbmm", "https://github.com/mozilla/DeepSpeech/releases/download/v0.9.4/deepspeech-0.9.4-models.scorer")    ]
 for folder, url in model_folders:
-model_updater.update_models(folder, url)
-
+    model_updater.update_models(folder, url)
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
     name='Cogz',
-    version='0.1.0',
+    version='0.2.0',
     author='Knut Ingmar Merødningen',
     author_email='merodningen.design@gmail.com',
     description='A smart device monitor program that works like a personal assistant',
